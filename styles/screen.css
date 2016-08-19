@@ -3,7 +3,7 @@
 	Name: 		ReTouch
 	Date:		2015/03/10
 	Author:		http://psdhtml.me
-		   		   
+
 ---------------------------------------------  */
 
 @font-face {
@@ -50,16 +50,16 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 						#nav > ul > li > ul > li:hover > ul, #clone nav > ul > li > ul > li:hover > ul { top: -2px; }
 						#nav > ul > li > ul > li:first-child:hover > ul, #clone nav > ul > li > ul > li:first-child:hover > ul { top: -5px; }
 			#nav em, #clone nav em { position: absolute; left: -3000em; top: -3000em; }
-		#clone { position: fixed; left: 0; top: -75px; z-index: 2001; width: 100%; height: 63px; padding: 10px 0 0; box-shadow: 0 1px 1px #E65050; background: #FFFFFF; }
+		#clone { position: fixed; left: 0; top: -75px; z-index: 2001; width: 100%; height: 63px; padding: 10px 0 0; box-shadow: 0 1px 1px #F7B750; background: #FFFFFF; }
 		#clone.active { top: 0; }
 		.lt-ie9 #clone.active { top: 28px; border-bottom: 1px solid #ebebeb; }
 			#clone h1 { height: 52px; }
 				#clone h1 a { height: 100%; content: url(../images/logo-reverse-a.png); }
 			#clone nav { top: 19px; }
 				#root #clone nav > ul > li.sub:hover > a { padding-bottom: 2px; border-radius: 5px 5px 0 0; background: #000; color: #fff; }
-				#clone nav > ul > li > a { color: #E65050; text-decoration: none; /* BAR LINK */}
-					#clone nav > ul > li.active > a, #clone nav > ul > li:hover > a, #clone nav > ul > li > a:hover { color: #000; } 
-					#clone nav > ul > li.a > a { border-radius: 5px; background: #000; color: #fff; } 
+				#clone nav > ul > li > a { color: #F7B750; text-decoration: none; /* BAR LINK */}
+					#clone nav > ul > li.active > a, #clone nav > ul > li:hover > a, #clone nav > ul > li > a:hover { color: #000; }
+					#clone nav > ul > li.a > a { border-radius: 5px; background: #000; color: #fff; }
 				#clone nav > ul > li > ul { border-radius: 0 5px 5px 5px; background: #000; }
 					#clone nav > ul > li > ul li { }
 					#clone nav > ul > li > ul li a, #clone nav > ul > li > ul > li > ul a { border-color: #fff; color: #fff; }
@@ -114,10 +114,10 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 				#content.a > .vid .heading-a h1:before, #content.a > .vid .heading-a h2:before, #content.a > .vid .heading-a h3:before { left: -3000em; }
 				#content.a > .vid .heading-a h1, #content.a > .vid .heading-a h2, #content.a > .vid .heading-a h3 { margin-bottom: 0; padding-bottom: 0; }
 			#content.a > .vid figure { position: relative; z-index: 1; margin: 0; }
-				#content.a > .vid figure img { display: block; z-index: 1; width: 100% !important; opacity: .43; filter: alpha(opacity = 43); }  
+				#content.a > .vid figure img { display: block; z-index: 1; width: 100% !important; opacity: .43; filter: alpha(opacity = 43); }
 				#content.a > .vid figure a { display: block; position: relative; }
 				#content.a > .vid figure a:before { content: ""; display: block; position: absolute; left: 50%; top: 50%; z-index: 2; width: 104px; height: 104px; margin: -52px 0 0 -52px; background: url(../images/play.png) no-repeat; }
-				#content.a > .vid figure a > .fit-a { display: block; position: absolute; left: -3000em; top: 0; z-index: 1; width: 100%; height: 655px; background-position: center 0; background-repeat: no-repeat; background-size: cover; opacity: .43; filter: alpha(opacity = 43); }  
+				#content.a > .vid figure a > .fit-a { display: block; position: absolute; left: -3000em; top: 0; z-index: 1; width: 100%; height: 655px; background-position: center 0; background-repeat: no-repeat; background-size: cover; opacity: .43; filter: alpha(opacity = 43); }
 		#content.a > * > .list-b:last-child { margin-bottom: -40px; }
 		#content.a > * > .list-b.last-child { margin-bottom: -40px; }
 	#contact { overflow: hidden; position: relative; width: 100%; padding: 200px 0; }
@@ -168,8 +168,8 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 .cols-a:after { content: ""; display: block; overflow: hidden; clear: both; height: 0; }
 	.cols-a > *:first-child { float: left; width: 700px; }
 	.cols-a > aside { float: right; width: 300px; }
-	
-	
+
+
 /*! Modules --------- */
 .comments-a { list-style: none; margin-top: 36px; padding: 0 0 0 101px; color: #707070; font-weight: 600; line-height: 1.45; }
 	.comments-a li { font-size: 1.6em; }
@@ -177,7 +177,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 	#root .comments-a img { display: block; position: absolute; left: -101px; top: 0; border-radius: 100px; }
 	.comments-a .title { display: block; padding: 0 180px 0 0; color: #303030; font-weight: 700; }
 	.comments-a .date { position: absolute; right: 45px; top: 20px; color: #000; font-size: .8em; font-weight: 600; }
-	.comments-a ul { position: relative; list-style: none; margin: 0; padding: 0 0 0 44px; }	
+	.comments-a ul { position: relative; list-style: none; margin: 0; padding: 0 0 0 44px; }
 		.comments-a ul:before { content: ""; display: block; position: absolute; left: -102px; top: 29px; width: 33px; height: 23px; background: url(../images/comments.png) -5px -5px no-repeat #000; }
 		.comments-a ul li { font-size: 1em; }
 
@@ -202,7 +202,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 		.download-a.a li.gp a { background: url(../images/download-gp-b.png) -5px -5px no-repeat; }
 			.download-a.a li.as a:hover { background-image: url(../images/download-as-d.png); }
 			.download-a.a li.gp a:hover { background-image: url(../images/download-gp-d.png); }
-	
+
 .gallery-a { overflow: hidden; position: relative; left: 3px; list-style: none; width: 1004px; margin: 0 auto 58px; padding: 0; line-height: 1.2; }
 	.gallery-a li { position: relative; float: left; width: 328px;; margin: 0 6px 6px 0; font-size: 2.238em; }
 	.gallery-a li:before { content: ""; display: block; position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: 1; border: 1px solid #efefef; }
@@ -221,7 +221,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 			.gallery-a li.plain a:hover { color: #fff; }
 			#root .gallery-a li.plain a:hover .date:before { background: #fff; }
 	.gallery-a .bx-pager, .gallery-b .bx-pager { display: block; padding: 22px 0 0; text-align: center; }
-	
+
 .gallery-b { overflow: hidden; position: relative; left: 50px; list-style: none; width: 105%; margin: 0 auto 55px; padding: 0; }
 	.gallery-b li { overflow: hidden; position: relative; float: left; width: 220px; margin: 0 50px 50px 0; box-shadow: 0 7px 10px rgba(0,0,0,.03); color: #fff; font-size: 1.0em; text-transform: uppercase; }
 	.gallery-b li { display: block; position: relative; }
@@ -260,7 +260,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 		.gallery-b.b li > div > * { position: relative; z-index: 2; }
 		.gallery-b.b li > div:before { z-index: 1; }
 		.no-mobile .gallery-b.b li:hover > div { top: auto; bottom: 0; }
-	
+
 .gallery-c, #content > .gallery-c { width: auto; margin-bottom: 30px; }
 	.gallery-c > .heading-a { width: 1100px; margin-left: auto; margin-right: auto; }
 	.gallery-c ul { overflow: hidden; list-style: none; width: 100%; margin: 0; padding: 0; line-height: 1; }
@@ -285,7 +285,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 		.gallery-c .bx-pager .bx-pager-item, .news-d .bx-pager-item, .gallery-a .bx-pager-item, .gallery-b .bx-pager-item { display: inline-block; margin: 0 3.5px; }
 		.gallery-c .bx-pager .bx-pager-item a, .news-d .bx-pager-item a, .gallery-a .bx-pager-item a, .gallery-b .bx-pager-item a { display: inline-block; overflow: hidden; width: 11px; height: 11px; border-radius: 10px; background: #ccc; text-align: left; text-indent: -3000em; }
 		.gallery-c .bx-pager .bx-pager-item a.active, .news-d .bx-pager-item a.active, .gallery-a .bx-pager-item a.active, .gallery-b .bx-pager-item a.active { background: #000; cursor: default; }
-	
+
 .heading-a { margin-bottom: /*92*/30px; color: #7e7e7e; text-align: center; }
 	.heading-a h1, .heading-a h2, .heading-a h3 { position: relative; margin-bottom: 38px; padding-bottom: 24px; font-size: 4em; }
 		.heading-a h1 .small, .heading-a h2 .small, .heading-a h3 .small { display: block; margin-bottom: 10px; color: #000; font-weight: 700; font-size: .35em; text-transform: uppercase; }
@@ -300,9 +300,9 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 	.heading-a.b p { margin-bottom: 34px; }
 .heading-a.tw { }
 	.heading-a.tw h1, .heading-a.tw h2, .heading-a.tw h3 { margin-top: -41px; padding-top: 41px; }
-	.heading-a.tw h1:after, .heading-a.tw h2:after, .heading-a.tw h3:after { content: ""; display: block; position: absolute; left: 50%; top: 0; width: 44px; height: 44px; margin: 0 0 0 -22px; background: url(../images/icon-tw-a.png) no-repeat; background-size: 100% 100%; opacity: .8; filter: alpha(opacity = 80); } 
+	.heading-a.tw h1:after, .heading-a.tw h2:after, .heading-a.tw h3:after { content: ""; display: block; position: absolute; left: 50%; top: 0; width: 44px; height: 44px; margin: 0 0 0 -22px; background: url(../images/icon-tw-a.png) no-repeat; background-size: 100% 100%; opacity: .8; filter: alpha(opacity = 80); }
 	.lt-ie9 .heading-a.tw h1, .lt-ie9 .heading-a.tw h2, .lt-ie9 .heading-a.tw h3 { padding-top: 53px; }
-		.lt-ie9 .heading-a.tw h1:after, .lt-ie9 .heading-a.tw h2:after, .lt-ie9 .heading-a.tw h3:after { width: 56px; height: 56px; } 
+		.lt-ie9 .heading-a.tw h1:after, .lt-ie9 .heading-a.tw h2:after, .lt-ie9 .heading-a.tw h3:after { width: 56px; height: 56px; }
 
 #content > .heading-a:first-child, #content.a > * > .heading-a:first-child { margin-top: 17px; }
 
@@ -342,7 +342,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 			.nav-a > ul li.nav-sub + .nav-sub { margin-top: -3px; }
 			#root .nav-a > ul li.nav-sub a { display: inline; padding: 0; border: 0; background: none; }
 			#root .nav-a > ul li.nav-sub a:hover, #root .nav-a > ul li.nav-sub.active a { color: #000; }
-			.nav-a > ul li.nav-sub i { position: relative; top: 2px; }	
+			.nav-a > ul li.nav-sub i { position: relative; top: 2px; }
 				.nav-a > ul li.nav-sub i:before { color: #000; }
 		.nav-a > ul li.nav-subline { padding-top: 10px; border-top: 1px solid #fff; }
 	.cols-a > aside > .nav-a:first-child { margin-top: 2px; }
@@ -398,9 +398,9 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 			.news-b article header p span { display: block; margin: 0 0 5px; color: #000; font-weight: 700; font-size: 2.368em; }
 			.news-b article header p a { display: block; margin: 14px 0 0; padding: 12px 0 0; border-top: 1px solid #ccc; color: #7e7e7e; font-weight: 400; font-size: .736em; }
 	.news-b .pagination-a { margin-top: -21px; }
-	
+
 .news-c, #content.a > * > .news-c { position: relative; width: 960px; margin-left: auto; margin-right: auto; margin-bottom: 30px; }
-.news-c { overflow: hidden; height: 460px; }	
+.news-c { overflow: hidden; height: 460px; }
 	.news-c > header { position: absolute; left: 50px; top: 51px; z-index: 2; background: url(../images/arrow-left-f.png) -3000em -3000em no-repeat; }
 		.news-c > header h1, .news-c > header h2, .news-c > header h3, .news-c > header h4 { background: url(../images/arrow-right-f.png) -3000em -3000em no-repeat; color: #fff; font-size: 1.306em; font-weight: 700; text-transform: uppercase; }
 	.news-c article { position: relative; z-index: 1; width: 350px; height: 350px; margin: 0 0 50px; padding: 110px 560px 0 50px; background: #000; color: #fff; }
@@ -415,8 +415,8 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 	.news-c .bx-prev, .news-c .bx-next { display: block; overflow: hidden; position: absolute; bottom: 12px; z-index: 3; width: 40px; height: 40px; text-align: left; text-indent: -3000em; }
 		.news-c .bx-prev { left: 50px; background: url(../images/arrow-left-e.png) no-repeat; background-size: 100% 100%; }
 		.news-c .bx-next { left: 139px; background: url(../images/arrow-right-e.png) no-repeat; background-size: 100% 100%; }
-			.news-c .bx-prev:hover { background: url(../images/arrow-left-f.png) no-repeat; background-size: 100% 100%; opacity: .9; }  
-			.news-c .bx-next:hover { background: url(../images/arrow-right-f.png) no-repeat; background-size: 100% 100%; opacity: .9; }  
+			.news-c .bx-prev:hover { background: url(../images/arrow-left-f.png) no-repeat; background-size: 100% 100%; opacity: .9; }
+			.news-c .bx-next:hover { background: url(../images/arrow-right-f.png) no-repeat; background-size: 100% 100%; opacity: .9; }
 	.lt-ie9 .news-c .bx-prev, .lt-ie9 .news-c .bx-next { width: 44px; height: 43px; }
 	.news-c .bx-pager { position: absolute; left: 50px; top: 74px; z-index: 3; color: #fff; font-size: 2em; }
 	/*.heading-a + .news-c { margin-top: -44px; }*/
@@ -449,7 +449,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 	.news-d.mobile-only .bx-viewport, .news-d.mobile-only .bx-pager { left: 0 !important; padding-top: 0; }
 
 .news-e { color: #7e7e7e; }
-	.news-e article { position: relative; margin: 0 0 61px; padding: 30px 56px 6px; border: 1px solid #e9e9e9; }		
+	.news-e article { position: relative; margin: 0 0 61px; padding: 30px 56px 6px; border: 1px solid #e9e9e9; }
 		.news-e article > .link { display: block; overflow: hidden; position: absolute; left: -1px; top: -1px; z-index: 10; width: 100%; height: 100%; padding: 1px; text-align: left; text-indent: -3000em; }
 		.news-e article.has-link:hover { background: #f2f1f1; }
 	.news-e header figure { position: relative; margin: -31px -57px 51px; }
@@ -484,20 +484,20 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 			.slider-a li .title span { display: block; font-size: 1.5em; font-weight: 700; }
 			.slider-a li .title .date { position: absolute; right: 0; top: 15px; font-size: 1em; font-weight: 400; }
 	/*.heading-a + .slider-a { margin-top: -42px; }*/
-	.slider-a .bx-prev, .slider-a .bx-next, .slider-ba .bx-prev, .slider-ba .bx-next { display: block; overflow: hidden; position: absolute; top: 50%; width: 42px; height: 44px; margin: -22px 0 0; text-align: left; text-indent: -3000em; opacity: .4; }  
+	.slider-a .bx-prev, .slider-a .bx-next, .slider-ba .bx-prev, .slider-ba .bx-next { display: block; overflow: hidden; position: absolute; top: 50%; width: 42px; height: 44px; margin: -22px 0 0; text-align: left; text-indent: -3000em; opacity: .4; }
 		.slider-a .bx-prev, .slider-ba .bx-prev { left: -100px; background: url(../images/arrow-left-e.png) no-repeat; background-size: 100% 100%; }
 		.slider-a .bx-next, .slider-ba .bx-next { right: -100px; background: url(../images/arrow-right-e.png) no-repeat; background-size: 100% 100%; }
-			.slider-a .bx-prev:hover, .slider-ba .bx-prev:hover { background: url(../images/arrow-left-f.png) no-repeat; background-size: 100% 100%; opacity: .8; }  
-			.slider-a .bx-next:hover, .slider-ba .bx-next:hover { background: url(../images/arrow-right-f.png) no-repeat; background-size: 100% 100%; opacity: .8; }  
+			.slider-a .bx-prev:hover, .slider-ba .bx-prev:hover { background: url(../images/arrow-left-f.png) no-repeat; background-size: 100% 100%; opacity: .8; }
+			.slider-a .bx-next:hover, .slider-ba .bx-next:hover { background: url(../images/arrow-right-f.png) no-repeat; background-size: 100% 100%; opacity: .8; }
 		.lt-ie9 .slider-a .bx-prev, .lt-ie9 .slider-a .bx-next, .lt-ie9 .slider-ba .bx-prev, .lt-ie9 .slider-ba .bx-next { width: 44px; }
 	.slider-a .bx-pager { position: absolute; left: -3000em; top: 0; }
-	
+
 .slider-b { overflow: hidden; list-style: none; margin: 0 auto 80px; height: 440px; padding: 0; background: url(../images/arrow-left-b.png) -3000em -3000em no-repeat; }
 	.slider-b li { max-width: 320px; background: url(../images/arrow-right-b.png) -3000em -3000em no-repeat; }
 	.slider-b img { max-width: none !important; }
 	[data-carousel-3d] { position: relative; width: 100%; }
 	[data-carousel-3d] { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
-		[data-carousel-3d] [data-prev-button], [data-carousel-3d] [data-next-button] { display: block; position: absolute; top: 50%; width: 66px; height: 66px; margin: -33px 0 0; text-align: left; text-indent: -3000em; cursor: pointer; } 
+		[data-carousel-3d] [data-prev-button], [data-carousel-3d] [data-next-button] { display: block; position: absolute; top: 50%; width: 66px; height: 66px; margin: -33px 0 0; text-align: left; text-indent: -3000em; cursor: pointer; }
 		[data-carousel-3d] [data-prev-button] { left: 0; background: url(../images/arrow-left-a.png) -5px -5px no-repeat #000; }
 		[data-carousel-3d] [data-next-button] { right: 0; background: url(../images/arrow-right-a.png) -5px -5px no-repeat #000; }
 			[data-carousel-3d] [data-prev-button]:hover { background: url(../images/arrow-left-b.png) -5px -5px no-repeat #000; }
@@ -517,10 +517,10 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 	.slider-ba .bx-prev, .slider-ba .bx-next { top: auto; bottom: 10px; margin: 0; }
 		.slider-ba .bx-prev { left: 10px; }
 		.slider-ba .bx-next { right: 10px; }
-	
+
 .slider-bb { position: relative; list-style: none; max-width: 320px; margin: 0 auto 80px; padding: 0; text-align: center; }
 	.slider-bb * { margin: 0; padding: 0; }
-	.slider-bb .bx-prev, .slider-bb .bx-next { display: block; position: absolute; top: 50%; width: 66px; height: 66px; margin: -33px 0 0; text-align: left; text-indent: -3000em; cursor: pointer; } 
+	.slider-bb .bx-prev, .slider-bb .bx-next { display: block; position: absolute; top: 50%; width: 66px; height: 66px; margin: -33px 0 0; text-align: left; text-indent: -3000em; cursor: pointer; }
 		.slider-bb .bx-prev { left: -120px; background: url(../images/arrow-left-a.png) -5px -5px no-repeat #000; }
 		.slider-bb .bx-next { right: -120px; background: url(../images/arrow-right-a.png) -5px -5px no-repeat #000; }
 			.slider-bb .bx-prev:hover { background-image: url(../images/arrow-left-b.png); }
@@ -541,7 +541,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 		.social-a li.fb a:hover { background-image: url(../images/icon-fb-c.png); }
 		.social-a li.tw a:hover { background-image: url(../images/icon-tw-c.png); }
 		.social-a li.in a:hover { background-image: url(../images/icon-in-c.png); }
-	
+
 #root #content .sticky-a, #root #content .sticky-c { position: absolute; right: 50%; top: 100%; z-index: 2; width: auto; margin: -414px -1032px 0 0; padding: 0; opacity: 0; }
 #root #content .sticky-a, #root #content .sticky-c { transform: translateX(250px); -moz-transform: translateX(250px); -webkit-transform: translateX(250px); -o-transform: translateX(250px); -ms-transform: translateX(250px); }
 #root #content .sticky-b, #root #content .sticky-d { position: absolute; left: 50%; top: 25px; width: auto; margin: 0 0 0 -550px; padding: 0; opacity: 0; }
@@ -577,7 +577,7 @@ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: b
 	sup { top: -0.5em; }
 	sub { bottom: -0.25em; }
 
-.scheme-a { color: #000; } 
+.scheme-a { color: #000; }
 .scheme-b { max-width: 440px; margin-left: auto; margin-right: auto; color: #FFF;}
 .scheme-c { color: #303030; }
 
@@ -591,7 +591,7 @@ a { background: none; color: #000; text-decoration: none; cursor: pointer; } /*-
 		.link-a a:hover { background: #000; color: #fff; }
 .link-a.a { }
 	.link-a.a a { display: inline-block; float: none; min-width: 147px; padding-top: 10px; padding-bottom: 11px; border-radius: 2px; border: 2px solid #000; }
-	
+
 
 /*! Lists --------- */
 ul, ol, dd, blockquote { padding-left: 40px; }
@@ -628,10 +628,10 @@ ul, ol, dd, blockquote { padding-left: 40px; }
 	.js .list-b li.c4 { right: 0; top: 382px; }
 .list-b.a { height: 728px; }
 	.list-b.a li { }
-		.js .list-b.a li.c1 { left: 155px; top: 22px; padding-left: 30px; padding-right: 82px; text-align: right; }	
-		.js .list-b.a li.c2 { left: 0; top: 177px; padding-left: 30px; padding-right: 82px; text-align: right; }	
+		.js .list-b.a li.c1 { left: 155px; top: 22px; padding-left: 30px; padding-right: 82px; text-align: right; }
+		.js .list-b.a li.c2 { left: 0; top: 177px; padding-left: 30px; padding-right: 82px; text-align: right; }
 		.js .list-b.a li.c3 { right: 0; top: 382px; }
-		.js .list-b.a li.c4 { right: 150px; top: 542px; }	
+		.js .list-b.a li.c4 { right: 150px; top: 542px; }
 	.js .list-b.a li.c1 .no, .js .list-b.a li.c2 .no { left: auto; right: 22px; }
 .list-b.b { text-align: center; }
 	#content.a > * > .list-b.b:last-child { margin-bottom: -8px; }
@@ -641,7 +641,7 @@ ul, ol, dd, blockquote { padding-left: 40px; }
 	#root .list-b.b li:after { left: 50%; top: -10px; width: 20px; height: 11px; margin: 0 0 0 -10px; background: url(../images/arrow-top-d.png) no-repeat; }
 		#root .list-b.b li.c1:after { left: 75%; }
 		#root .list-b.b li.c3:after { left: 25%; }
-		
+
 /*.heading-a + .list-b { margin-top: -46px; }*/
 
 .list-c, #content.a > * > .list-c { overflow: hidden; list-style: none; width: 800px; margin-left: auto; margin-right: auto; margin-bottom: 0; padding: 0; color: #7e7e7e; text-align: center; }
@@ -666,7 +666,7 @@ ul, ol, dd, blockquote { padding-left: 40px; }
 	.list-c.a > li > a { padding: 7px 17px; border-radius: 2px; border-width: 5px; }
 .heading-a + .list-c { margin-top: -24px; }
 
-	
+
 /*! Media --------- */
 img, object, embed, video { max-width: 100% !important; }
 img { position: relative; height: auto !important; image-rendering: optimizeQuality; -ms-interpolation-mode: bicubic; }
@@ -693,12 +693,12 @@ fieldset, hr { border-width: 0; }
 			input[type="search"], input[type="number"] { appearance: textfield; -moz-appearance: textfield; }
 				input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
 				input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; height: auto; margin: 0; }
-				input[type="number"]::-o-outer-spin-button, input[type="number"]::-o-inner-spin-button { -o-appearance: none; margin: 0; }		
+				input[type="number"]::-o-outer-spin-button, input[type="number"]::-o-inner-spin-button { -o-appearance: none; margin: 0; }
 			input[type="checkbox"], input[type="radio"] { padding: 0; }
 		textarea { overflow: auto; vertical-align: top; resize: vertical; }
-		select { text-overflow: ''; text-indent: 0.01px; appearance: none; -moz-appearance: none; -webkit-appearance: none; } 
+		select { text-overflow: ''; text-indent: 0.01px; appearance: none; -moz-appearance: none; -webkit-appearance: none; }
 			select::-ms-expand { display: none; }
-	button, input[type="button"], input[type="reset"], input[type="submit"] { position: relative; z-index: 3; margin: 0; text-transform: none; cursor: pointer; -webkit-appearance: button; } 
+	button, input[type="button"], input[type="reset"], input[type="submit"] { position: relative; z-index: 3; margin: 0; text-transform: none; cursor: pointer; -webkit-appearance: button; }
 		button::-moz-focus-inner, input::-moz-focus-inner { padding: 0; border: 0; outline: none; }
 	form [disabled] { cursor: default; }
 ::-webkit-input-placeholder { opacity: 1; color: inherit; }
@@ -717,9 +717,9 @@ form { }
 	input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="range"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] { height: 41px; padding: 0 12px; line-height: 1; }
 		input[type="color"] { padding: 0; cursor: pointer; }
 		.lt-ie9 input[type="date"], .lt-ie9 input[type="datetime"], .lt-ie9 input[type="datetime-local"], .lt-ie9 input[type="email"], .lt-ie9 input[type="month"], .lt-ie9 input[type="number"], .lt-ie9 input[type="password"], .lt-ie9 input[type="range"], .lt-ie9 input[type="search"], .lt-ie9 input[type="tel"], .lt-ie9 input[type="text"], .lt-ie9 input[type="time"], .lt-ie9 input[type="url"], .lt-ie9 input[type="week"] { line-height: 39px; }
-	select { padding: 7px 7px 8px 8px; } 
-	textarea { height: 204px; min-height: 204px; padding: 7px 7px 7px 12px; }  
-input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="range"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea, .semantic-select .input { border-radius: 4px; border: 1px solid #f4f4f4; border-top-color: #eaeaea; border-left-color: #eaeaea; background: #f4f4f4; color: #283a44; font-size: 15.46px; font-weight: 600; } 
+	select { padding: 7px 7px 8px 8px; }
+	textarea { height: 204px; min-height: 204px; padding: 7px 7px 7px 12px; }
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="range"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea, .semantic-select .input { border-radius: 4px; border: 1px solid #f4f4f4; border-top-color: #eaeaea; border-left-color: #eaeaea; background: #f4f4f4; color: #283a44; font-size: 15.46px; font-weight: 600; }
 		input:focus, select:focus, textarea:focus { border-color: #f32160; }
 	button, input[type="button"], input[type="reset"], input[type="submit"] { display: block; overflow: hidden; float: right; min-width: 190px; height: 43px; margin: 15px 0 0; padding: 0 24px; border-radius: 5px; border: 1px solid #000; background: none; color: #000; font-size: 11.73px; font-weight: 700; text-align: center; text-transform: uppercase; letter-spacing: .1em; }
 	button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover { background: #000; color: #fff; }
@@ -733,11 +733,11 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
 		.semantic-select ul li { margin: 0; padding: 1px 0 0; font-size: 15px; }
 		#root .nav-a .semantic-select ul li { border: 0; font-size: 15px; }
 			.semantic-select ul li:first-child, .semantic-select ul li.hidden:first-child + li { padding-top: 0; }
-		.semantic-select ul li a, #root .nav-a .semantic-select ul li a { display: block; float: none; padding: 6px 12px; border-radius: 0; border: 0; font-weight: 600; font-size: 1em; } 
+		.semantic-select ul li a, #root .nav-a .semantic-select ul li a { display: block; float: none; padding: 6px 12px; border-radius: 0; border: 0; font-weight: 600; font-size: 1em; }
 		.semantic-select ul li a { color: #283a44; }
 		#root .semantic-select ul li a:hover, #root .semantic-select ul li.active a { background: #000; color: #fff; text-decoration: none; }
 			#root .semantic-select ul li.active a { cursor: default; }
-	.semantic-select.scrolled ul { overflow-y: scroll; overflow-x: hidden; height: 150px; }	
+	.semantic-select.scrolled ul { overflow-y: scroll; overflow-x: hidden; height: 150px; }
 	.semantic-select.focus .input, .semantic-select.active .input { border-color: #000; }
 	.semantic-select.active ul { left: 0; }
 
@@ -747,7 +747,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
 			.form-a p > span:first-child { margin-right: 8px; }
 			.form-a p > span:last-child { float: right; }
 			.form-a p > span.last-child { float: right; }
-	.js .form-a label { position: absolute; padding: 0 12px; color: #283a44; font-size: 15.46px; font-weight: 600; line-height: 41px; cursor: text; } 
+	.js .form-a label { position: absolute; padding: 0 12px; color: #283a44; font-size: 15.46px; font-weight: 600; line-height: 41px; cursor: text; }
 	.form-a input, .form-a select, .form-a textarea { width: 100%; }
 
 .form-b { color: #7e7e7e; line-height: 1.75; text-align: center; }
@@ -799,7 +799,7 @@ hr, .hr { display: block; overflow: hidden; width: 100%; height: 1px; margin: 15
 p.lt-ie9, #root:after { position: fixed; left: 0; top: 0; z-index: 11000; width: 100%; height: 28px; background: #333; color: #fff; font-size: 1.2em; font-family: Arial, Helvetica, sans-serif; line-height: 28px; text-align: center; }
 	p.lt-ie9 a { color: #fff; font-weight: 700; text-decoration: underline; }
 	p.lt-ie9 a:hover, p.lt-ie9 a:focus, p.lt-ie9 a:active { text-decoration: none; }
-	
+
 #root:after { content: "Ummm.. please, enable JavaScript support to fully experience this site."; }
 .js #root:after { position: absolute; left: -3000em; top: -3000em; }
 .js body { padding-top: 0; }
@@ -810,7 +810,7 @@ p.lt-ie9, #root:after { position: fixed; left: 0; top: 0; z-index: 11000; width:
 audio, canvas, iframe, img, svg, video { border-width: 0; vertical-align: middle; }
 audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
 svg:not(:root) { overflow: hidden; }
-@-ms-viewport { width: auto; } 
+@-ms-viewport { width: auto; }
 
 ::selection { background: #000; color: #fff; text-shadow: none; }
 ::-moz-selection { background: #000; color: #fff; text-shadow: none; }
@@ -829,7 +829,7 @@ svg:not(:root) { overflow: hidden; }
 .theme-a .list-c > li.a > span span { background-color: #a93358; color: #fff; }
 .theme-a .list-c > li.c > span span { background-color: #f63; color: #fff; }
 
-@media only screen and (max-width: 47.5em) { 
+@media only screen and (max-width: 47.5em) {
 .theme-a #root #nav > ul > li > a, .theme-a #root #clone nav > ul > li > a, .theme-a #root #nav > ul > li > ul li a:hover, .theme-a #root #nav > ul > li > ul li.active { color: #f32160; }
 .theme-a #root #nav > ul > li > a:hover, .theme-a #root #clone nav > ul > li > a:hover, .theme-a #root #nav > ul > li.active > a, .theme-a #root #clone nav > ul > li.active > a { background-color: #f32160; color: #fff; }
 }
@@ -851,7 +851,7 @@ svg:not(:root) { overflow: hidden; }
 .theme-b .list-c > li.a > span span { background-color: #1790ba; color: #fff; }
 .theme-b .list-c > li.c > span span { background-color: #7be8ff; color: #fff; }
 
-@media only screen and (max-width: 47.5em) { 
+@media only screen and (max-width: 47.5em) {
 .theme-b #root #nav > ul > li > a, .theme-b #root #clone nav > ul > li > a, .theme-b #root #nav > ul > li > ul li a:hover, .theme-b #root #nav > ul > li > ul li.active { color: #00aae6; }
 .theme-b #root #nav > ul > li > a:hover, .theme-b #root #clone nav > ul > li > a:hover, .theme-b #root #nav > ul > li.active > a, .theme-b #root #clone nav > ul > li.active > a { background-color: #00aae6; color: #fff; }
 }
@@ -873,7 +873,7 @@ svg:not(:root) { overflow: hidden; }
 .theme-c .list-c > li.a > span span { background-color: #22a2a4; color: #fff; }
 .theme-c .list-c > li.c > span span { background-color: #2b7fa9; color: #fff; }
 
-@media only screen and (max-width: 47.5em) { 
+@media only screen and (max-width: 47.5em) {
 .theme-c #root #nav > ul > li > a, .theme-c #root #clone nav > ul > li > a, .theme-c #root #nav > ul > li > ul li a:hover, .theme-c #root #nav > ul > li > ul li.active { color: #5fcac1; }
 .theme-c #root #nav > ul > li > a:hover, .theme-c #root #clone nav > ul > li > a:hover, .theme-c #root #nav > ul > li.active > a, .theme-c #root #clone nav > ul > li.active > a { background-color: #5fcac1; color: #fff; }
 }
@@ -887,37 +887,37 @@ svg:not(:root) { overflow: hidden; }
 
 
 /*! Theme - Green --------- */
-.theme-d button, .theme-d input[type="button"], .theme-d input[type="reset"], .theme-d input[type="submit"], .theme-d a, .theme-d .scheme-a, .theme-d .news-a header ul li i, .theme-d .news-a header ul li i:before, .theme-d .news-a header ul li a:hover, .theme-d #clone nav > ul > li.active > a, .theme-d #clone nav > ul > li:hover > a, .theme-d #clone nav > ul > li > a:hover, .theme-d .nav-a ul li a:hover span, .theme-d .nav-a ul li.active a span, .theme-d #root .search-a button, .theme-d .heading-a h1 .small, .theme-d .heading-a h2 .small, .theme-d .heading-a h3 .small, .theme-d .news-b article header p span, .theme-d .pagination-a li a, .theme-d .list-a li i, .theme-d .list-c > li > a, .theme-d .counter > span span, .theme-d .comments-a .date, .theme-d .nav-a h1 em, .theme-d .nav-a h2 em, .theme-d .nav-a h3 em, .theme-d .nav-a h4 em, .theme-d #root .nav-a > ul li.nav-sub a:hover, .theme-d #root .nav-a > ul li.nav-sub.active a, .theme-d .nav-a > ul li.nav-sub i:before, .theme-d #root .nav-a-new > ul li a:hover, .theme-d #root .nav-a-new > ul li.active a, .theme-d #root .nav-a.aside-cal ul li a:hover, .theme-d #root .nav-a.aside-cal ul li.active a { color: #E65050; }
-.theme-d button:hover, .theme-d input[type="button"]:hover, .theme-d input[type="reset"]:hover, .theme-d input[type="submit"]:hover, .theme-d #featured, .theme-d #clone h1 a, .theme-d .nav-a ul li a:hover, .theme-d .nav-a ul li.active a, .theme-d #footer:before, .theme-d .social-a li a:hover, .theme-d .download-a li a:hover, .theme-d #top.active > .fit-a:before, .theme-d #top.active > .fit-a:after, .theme-d #clone.active > .fit-a:before, .theme-d #clone.active > .fit-a:after, .theme-d .heading-a h1:before, .theme-d .heading-a h2:before, .theme-d .heading-a h3:before, .theme-d .gallery-a li a:before, .theme-d .semantic-select .ticker:before, .theme-d #root .semantic-select ul li.active a, .theme-d .news-b article h1:before, .theme-d .news-b article h2:before, .theme-d .news-b article h3:before, .theme-d .news-b article h5:before, .theme-d .link-a a:hover, .theme-d .pagination-a li a:hover, .theme-d .pagination-a li.active a, .theme-d #root .semantic-select ul li a:hover, .theme-d .list-a li a:hover i, .theme-d #welcome h1:before, .theme-d #welcome h2:before, .theme-d .list-b li .no, .theme-d #content.a > .vb, .theme-d .news-c article, .theme-d .form-b button:before, .theme-d .list-c > li > a:hover, .theme-d .list-c > li > span span, .theme-d .counter > span span:before, .theme-d .comments-a ul:before, .theme-d .gallery-b li:before, .theme-d #root .gallery-b li > .fit-a:before, .theme-d #root .gallery-b li > .fit-a:after, .theme-d .gallery-c ul li:before, .theme-d .gallery-c .bx-pager .bx-pager-item a.active, .theme-d [data-carousel-3d] [data-prev-button], .theme-d [data-carousel-3d] [data-next-button], .theme-d [data-carousel-3d] [data-prev-button]:hover, .theme-d [data-carousel-3d] [data-next-button]:hover, .theme-d .slider-ba .bx-prev, .theme-d .slider-ba .bx-next, .theme-d .slider-ba .bx-prev:hover, .theme-d .slider-ba .bx-next:hover, .theme-d .slider-ba, .theme-d .gallery-b.b > li > div:before, .theme-d .news-d article h1:before, .theme-d .news-d article h2:before, .theme-d .news-d article h3:before, .theme-d .news-d article h4:before, .theme-d .news-d article h5:before, .theme-d .news-d article h6:before, .theme-d .news-d .bx-pager-item a.active, .theme-d .gallery-a .bx-pager-item a.active, .theme-d .gallery-b .bx-pager-item a.active, .theme-d .nav-a > ul li a:hover span.scheme-a, .theme-d .nav-a > ul li.active a span.scheme-a, .theme-d .news-e h1:before, .theme-d .news-e h2:before, .theme-d .news-e h3:before, .theme-d .news-e header figure:before, .theme-d .slider-bb .bx-prev, .theme-d .slider-bb .bx-next, .theme-d #welcome, .theme-d .gallery-a li.plain a .date:before { background-color: #E65050; color: #fff; }
-.theme-d button, .theme-d input[type="button"], .theme-d input[type="reset"], .theme-d input[type="submit"], .theme-d input:focus, .theme-d select:focus, .theme-d textarea:focus, .theme-d #top > .fit-a:before, .theme-d #top > .fit-a:after, .theme-d #clone > .fit-a:before, .theme-d #clone > .fit-a:after, .theme-d .semantic-select.focus .input, .theme-d .semantic-select.active .input, .theme-d .semantic-select ul, .theme-d #contact input:focus, .theme-d #contact select:focus, .theme-d #contact textarea:focus, .theme-d #contact .semantic-select.focus .input, .theme-d #contact .semantic-select.active .input, .theme-d .link-a a, .theme-d .pagination-a li a, .theme-d .form-b input:focus, .theme-d .list-c > li > a, .theme-d #root .gallery-b li > .fit-a, .theme-d .link-a.a a { border-color: #E65050; }
+.theme-d button, .theme-d input[type="button"], .theme-d input[type="reset"], .theme-d input[type="submit"], .theme-d a, .theme-d .scheme-a, .theme-d .news-a header ul li i, .theme-d .news-a header ul li i:before, .theme-d .news-a header ul li a:hover, .theme-d #clone nav > ul > li.active > a, .theme-d #clone nav > ul > li:hover > a, .theme-d #clone nav > ul > li > a:hover, .theme-d .nav-a ul li a:hover span, .theme-d .nav-a ul li.active a span, .theme-d #root .search-a button, .theme-d .heading-a h1 .small, .theme-d .heading-a h2 .small, .theme-d .heading-a h3 .small, .theme-d .news-b article header p span, .theme-d .pagination-a li a, .theme-d .list-a li i, .theme-d .list-c > li > a, .theme-d .counter > span span, .theme-d .comments-a .date, .theme-d .nav-a h1 em, .theme-d .nav-a h2 em, .theme-d .nav-a h3 em, .theme-d .nav-a h4 em, .theme-d #root .nav-a > ul li.nav-sub a:hover, .theme-d #root .nav-a > ul li.nav-sub.active a, .theme-d .nav-a > ul li.nav-sub i:before, .theme-d #root .nav-a-new > ul li a:hover, .theme-d #root .nav-a-new > ul li.active a, .theme-d #root .nav-a.aside-cal ul li a:hover, .theme-d #root .nav-a.aside-cal ul li.active a { color: #F7B750; }
+.theme-d button:hover, .theme-d input[type="button"]:hover, .theme-d input[type="reset"]:hover, .theme-d input[type="submit"]:hover, .theme-d #featured, .theme-d #clone h1 a, .theme-d .nav-a ul li a:hover, .theme-d .nav-a ul li.active a, .theme-d #footer:before, .theme-d .social-a li a:hover, .theme-d .download-a li a:hover, .theme-d #top.active > .fit-a:before, .theme-d #top.active > .fit-a:after, .theme-d #clone.active > .fit-a:before, .theme-d #clone.active > .fit-a:after, .theme-d .heading-a h1:before, .theme-d .heading-a h2:before, .theme-d .heading-a h3:before, .theme-d .gallery-a li a:before, .theme-d .semantic-select .ticker:before, .theme-d #root .semantic-select ul li.active a, .theme-d .news-b article h1:before, .theme-d .news-b article h2:before, .theme-d .news-b article h3:before, .theme-d .news-b article h5:before, .theme-d .link-a a:hover, .theme-d .pagination-a li a:hover, .theme-d .pagination-a li.active a, .theme-d #root .semantic-select ul li a:hover, .theme-d .list-a li a:hover i, .theme-d #welcome h1:before, .theme-d #welcome h2:before, .theme-d .list-b li .no, .theme-d #content.a > .vb, .theme-d .news-c article, .theme-d .form-b button:before, .theme-d .list-c > li > a:hover, .theme-d .list-c > li > span span, .theme-d .counter > span span:before, .theme-d .comments-a ul:before, .theme-d .gallery-b li:before, .theme-d #root .gallery-b li > .fit-a:before, .theme-d #root .gallery-b li > .fit-a:after, .theme-d .gallery-c ul li:before, .theme-d .gallery-c .bx-pager .bx-pager-item a.active, .theme-d [data-carousel-3d] [data-prev-button], .theme-d [data-carousel-3d] [data-next-button], .theme-d [data-carousel-3d] [data-prev-button]:hover, .theme-d [data-carousel-3d] [data-next-button]:hover, .theme-d .slider-ba .bx-prev, .theme-d .slider-ba .bx-next, .theme-d .slider-ba .bx-prev:hover, .theme-d .slider-ba .bx-next:hover, .theme-d .slider-ba, .theme-d .gallery-b.b > li > div:before, .theme-d .news-d article h1:before, .theme-d .news-d article h2:before, .theme-d .news-d article h3:before, .theme-d .news-d article h4:before, .theme-d .news-d article h5:before, .theme-d .news-d article h6:before, .theme-d .news-d .bx-pager-item a.active, .theme-d .gallery-a .bx-pager-item a.active, .theme-d .gallery-b .bx-pager-item a.active, .theme-d .nav-a > ul li a:hover span.scheme-a, .theme-d .nav-a > ul li.active a span.scheme-a, .theme-d .news-e h1:before, .theme-d .news-e h2:before, .theme-d .news-e h3:before, .theme-d .news-e header figure:before, .theme-d .slider-bb .bx-prev, .theme-d .slider-bb .bx-next, .theme-d #welcome, .theme-d .gallery-a li.plain a .date:before { background-color: #F7B750; color: #fff; }
+.theme-d button, .theme-d input[type="button"], .theme-d input[type="reset"], .theme-d input[type="submit"], .theme-d input:focus, .theme-d select:focus, .theme-d textarea:focus, .theme-d #top > .fit-a:before, .theme-d #top > .fit-a:after, .theme-d #clone > .fit-a:before, .theme-d #clone > .fit-a:after, .theme-d .semantic-select.focus .input, .theme-d .semantic-select.active .input, .theme-d .semantic-select ul, .theme-d #contact input:focus, .theme-d #contact select:focus, .theme-d #contact textarea:focus, .theme-d #contact .semantic-select.focus .input, .theme-d #contact .semantic-select.active .input, .theme-d .link-a a, .theme-d .pagination-a li a, .theme-d .form-b input:focus, .theme-d .list-c > li > a, .theme-d #root .gallery-b li > .fit-a, .theme-d .link-a.a a { border-color: #F7B750; }
 
-.theme-d #clone nav > ul > li.a > a, .theme-d #clone nav > ul > li > ul, .theme-d #root #clone nav > ul > li.sub:hover > a, .theme-d #clone nav > ul > li > ul > li > ul { background-color: #E65050; color: #fff; }
-.theme-d .list-c > li.a > span span { background-color: #E65050; color: #fff; }
-.theme-d .list-c > li.c > span span { background-color: #E65050; color: #fff; }
+.theme-d #clone nav > ul > li.a > a, .theme-d #clone nav > ul > li > ul, .theme-d #root #clone nav > ul > li.sub:hover > a, .theme-d #clone nav > ul > li > ul > li > ul { background-color: #F7B750; color: #fff; }
+.theme-d .list-c > li.a > span span { background-color: #F7B750; color: #fff; }
+.theme-d .list-c > li.c > span span { background-color: #F7B750; color: #fff; }
 
-@media only screen and (max-width: 47.5em) { 
-.theme-d #root #nav > ul > li > a, .theme-d #root #clone nav > ul > li > a, .theme-d #root #nav > ul > li > ul li a:hover, .theme-d #root #nav > ul > li > ul li.active { color: #E65050; }
-.theme-d #root #nav > ul > li > a:hover, .theme-d #root #clone nav > ul > li > a:hover, .theme-d #root #nav > ul > li.active > a, .theme-d #root #clone nav > ul > li.active > a { background-color: #E65050; color: #fff; }
+@media only screen and (max-width: 47.5em) {
+.theme-d #root #nav > ul > li > a, .theme-d #root #clone nav > ul > li > a, .theme-d #root #nav > ul > li > ul li a:hover, .theme-d #root #nav > ul > li > ul li.active { color: #F7B750; }
+.theme-d #root #nav > ul > li > a:hover, .theme-d #root #clone nav > ul > li > a:hover, .theme-d #root #nav > ul > li.active > a, .theme-d #root #clone nav > ul > li.active > a { background-color: #F7B750; color: #fff; }
 }
 
-::selection { background: #E65050; }
-::-moz-selection { background: #E65050; }
+::selection { background: #F7B750; }
+::-moz-selection { background: #F7B750; }
 
-.theme-d.has-gradient #featured, .theme-d.has-gradient #welcome, .theme-d.has-gradient .list-a li a:hover i, .theme-d.has-gradient .list-b li .no, .theme-d.has-gradient #content.a > .vb, .theme-d.has-gradient .news-c article, .theme-d.has-gradient .gallery-b li:before, .theme-d.has-gradient .gallery-c ul li:before, .theme-d.has-gradient .gallery-a li a:before, .theme-d.has-gradient .gallery-b.b > li > div:before, .theme-d.gradient .news-e header figure:before { background: -moz-linear-gradient(-45deg,  #E65050 0%, #E65050 100%); background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#E65050), color-stop(100%,#E65050)); background: -webkit-linear-gradient(-45deg,  #E65050 0%,#E65050 100%); background: -o-linear-gradient(-45deg,  #E65050 0%,#E65050 100%); background: -ms-linear-gradient(-45deg,  #E65050 0%,#E65050 100%); background: linear-gradient(135deg,  #E65050 0%,#E65050 100%); }
+.theme-d.has-gradient #featured, .theme-d.has-gradient #welcome, .theme-d.has-gradient .list-a li a:hover i, .theme-d.has-gradient .list-b li .no, .theme-d.has-gradient #content.a > .vb, .theme-d.has-gradient .news-c article, .theme-d.has-gradient .gallery-b li:before, .theme-d.has-gradient .gallery-c ul li:before, .theme-d.has-gradient .gallery-a li a:before, .theme-d.has-gradient .gallery-b.b > li > div:before, .theme-d.gradient .news-e header figure:before { background: -moz-linear-gradient(-45deg,  #F7B750 0%, #F7B750 100%); background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#F7B750), color-stop(100%,#F7B750)); background: -webkit-linear-gradient(-45deg,  #F7B750 0%,#F7B750 100%); background: -o-linear-gradient(-45deg,  #F7B750 0%,#F7B750 100%); background: -ms-linear-gradient(-45deg,  #F7B750 0%,#F7B750 100%); background: linear-gradient(135deg,  #F7B750 0%,#F7B750 100%); }
 .ie9.theme-d.has-gradient #featured, .ie9.theme-d.has-gradient #welcome, .ie9.theme-d.has-gradient .list-a li a:hover i, .ie9.theme-d.has-gradient .list-b li .no, .ie9.theme-d.has-gradient #content.a > .vb, .ie9.theme-d.has-gradient .news-c article, .ie9.theme-d.has-gradient .gallery-b li:before, .ie9.theme-d.has-gradient .gallery-c ul li:before, .ie9.theme-d.has-gradient .gallery-a li a:before, .ie9.theme-d.has-gradient .gallery-b.b > li > div:before, .ie9.theme-d.gradient .news-e header figure:before { background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOGVjNjRlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxYWJhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); }
-.lt-ie9.theme-d.has-gradient #featured, .lt-ie9.theme-d.has-gradient #welcome, .lt-ie9.theme-d.has-gradient .news-c article, .lt-ie9.theme-d.has-gradient #content.a > .vb { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E65050', endColorstr='#E65050',GradientType=1 ); }
+.lt-ie9.theme-d.has-gradient #featured, .lt-ie9.theme-d.has-gradient #welcome, .lt-ie9.theme-d.has-gradient .news-c article, .lt-ie9.theme-d.has-gradient #content.a > .vb { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7B750', endColorstr='#F7B750',GradientType=1 ); }
 
 
 /*! Theme - Magenta --------- */
-.theme-e button, .theme-e input[type="button"], .theme-e input[type="reset"], .theme-e input[type="submit"], .theme-e a, .theme-e .scheme-a, .theme-e .news-a header ul li i, .theme-e .news-a header ul li i:before, .theme-e .news-a header ul li a:hover, .theme-e #clone nav > ul > li.active > a, .theme-e #clone nav > ul > li:hover > a, .theme-e #clone nav > ul > li > a:hover, .theme-e .nav-a ul li a:hover span, .theme-e .nav-a ul li.active a span, .theme-e #root .search-a button, .theme-e .heading-a h1 .small, .theme-e .heading-a h2 .small, .theme-e .heading-a h3 .small, .theme-e .news-b article header p span, .theme-e .pagination-a li a, .theme-e .list-a li i, .theme-e .list-c > li > a, .theme-e .counter > span span, .theme-e .comments-a .date, .theme-e .nav-a h1 em, .theme-e .nav-a h2 em, .theme-e .nav-a h3 em, .theme-e .nav-a h4 em, .theme-e #root .nav-a > ul li.nav-sub a:hover, .theme-e #root .nav-a > ul li.nav-sub.active a, .theme-e .nav-a > ul li.nav-sub i:before, .theme-e #root .nav-a-new > ul li a:hover, .theme-e #root .nav-a-new > ul li.active a, .theme-e #root .nav-a.aside-cal ul li a:hover, .theme-e #root .nav-a.aside-cal ul li.active a { color: #E65050; }
-.theme-e button:hover, .theme-e input[type="button"]:hover, .theme-e input[type="reset"]:hover, .theme-e input[type="submit"]:hover, .theme-e #featured, .theme-e #clone h1 a, .theme-e .nav-a ul li a:hover, .theme-e .nav-a ul li.active a, .theme-e #footer:before, .theme-e .social-a li a:hover, .theme-e .download-a li a:hover, .theme-e #top.active > .fit-a:before, .theme-e #top.active > .fit-a:after, .theme-e #clone.active > .fit-a:before, .theme-e #clone.active > .fit-a:after, .theme-e .heading-a h1:before, .theme-e .heading-a h2:before, .theme-e .heading-a h3:before, .theme-e .gallery-a li a:before, .theme-e .semantic-select .ticker:before, .theme-e #root .semantic-select ul li.active a, .theme-e .news-b article h1:before, .theme-e .news-b article h2:before, .theme-e .news-b article h3:before, .theme-e .news-b article h5:before, .theme-e .link-a a:hover, .theme-e .pagination-a li a:hover, .theme-e .pagination-a li.active a, .theme-e #root .semantic-select ul li a:hover, .theme-e .list-a li a:hover i, .theme-e #welcome h1:before, .theme-e #welcome h2:before, .theme-e .list-b li .no, .theme-e #content.a > .vb, .theme-e .news-c article, .theme-e .form-b button:before, .theme-e .list-c > li > a:hover, .theme-e .list-c > li > span span, .theme-e .counter > span span:before, .theme-e .comments-a ul:before, .theme-e .gallery-b li:before, .theme-e #root .gallery-b li > .fit-a:before, .theme-e #root .gallery-b li > .fit-a:after, .theme-e .gallery-c ul li:before, .theme-e .gallery-c .bx-pager .bx-pager-item a.active, .theme-e [data-carousel-3d] [data-prev-button], .theme-e [data-carousel-3d] [data-next-button], .theme-e [data-carousel-3d] [data-prev-button]:hover, .theme-e [data-carousel-3d] [data-next-button]:hover, .theme-e .slider-ba .bx-prev, .theme-e .slider-ba .bx-next, .theme-e .slider-ba .bx-prev:hover, .theme-e .slider-ba .bx-next:hover, .theme-e .slider-ba, .theme-e .gallery-b.b > li > div:before, .theme-e .news-d article h1:before, .theme-e .news-d article h2:before, .theme-e .news-d article h3:before, .theme-e .news-d article h4:before, .theme-e .news-d article h5:before, .theme-e .news-d article h6:before, .theme-e .news-d .bx-pager-item a.active, .theme-e .gallery-a .bx-pager-item a.active, .theme-e .gallery-b .bx-pager-item a.active, .theme-e .nav-a > ul li a:hover span.scheme-a, .theme-e .nav-a > ul li.active a span.scheme-a, .theme-e .news-e h1:before, .theme-e .news-e h2:before, .theme-e .news-e h3:before, .theme-e .news-e header figure:before, .theme-e .slider-bb .bx-prev, .theme-e .slider-bb .bx-next, .theme-e #welcome, .theme-e .gallery-a li.plain a .date:before { background-color: #E65050; color: #fff; }
-.theme-e button, .theme-e input[type="button"], .theme-e input[type="reset"], .theme-e input[type="submit"], .theme-e input:focus, .theme-e select:focus, .theme-e textarea:focus, .theme-e #top > .fit-a:before, .theme-e #top > .fit-a:after, .theme-e #clone > .fit-a:before, .theme-e #clone > .fit-a:after, .theme-e .semantic-select.focus .input, .theme-e .semantic-select.active .input, .theme-e .semantic-select ul, .theme-e #contact input:focus, .theme-e #contact select:focus, .theme-e #contact textarea:focus, .theme-e #contact .semantic-select.focus .input, .theme-e #contact .semantic-select.active .input, .theme-e .link-a a, .theme-e .pagination-a li a, .theme-e .form-b input:focus, .theme-e .list-c > li > a, .theme-e #root .gallery-b li > .fit-a, .theme-e .link-a.a a { border-color: #E65050; }
+.theme-e button, .theme-e input[type="button"], .theme-e input[type="reset"], .theme-e input[type="submit"], .theme-e a, .theme-e .scheme-a, .theme-e .news-a header ul li i, .theme-e .news-a header ul li i:before, .theme-e .news-a header ul li a:hover, .theme-e #clone nav > ul > li.active > a, .theme-e #clone nav > ul > li:hover > a, .theme-e #clone nav > ul > li > a:hover, .theme-e .nav-a ul li a:hover span, .theme-e .nav-a ul li.active a span, .theme-e #root .search-a button, .theme-e .heading-a h1 .small, .theme-e .heading-a h2 .small, .theme-e .heading-a h3 .small, .theme-e .news-b article header p span, .theme-e .pagination-a li a, .theme-e .list-a li i, .theme-e .list-c > li > a, .theme-e .counter > span span, .theme-e .comments-a .date, .theme-e .nav-a h1 em, .theme-e .nav-a h2 em, .theme-e .nav-a h3 em, .theme-e .nav-a h4 em, .theme-e #root .nav-a > ul li.nav-sub a:hover, .theme-e #root .nav-a > ul li.nav-sub.active a, .theme-e .nav-a > ul li.nav-sub i:before, .theme-e #root .nav-a-new > ul li a:hover, .theme-e #root .nav-a-new > ul li.active a, .theme-e #root .nav-a.aside-cal ul li a:hover, .theme-e #root .nav-a.aside-cal ul li.active a { color: #F7B750; }
+.theme-e button:hover, .theme-e input[type="button"]:hover, .theme-e input[type="reset"]:hover, .theme-e input[type="submit"]:hover, .theme-e #featured, .theme-e #clone h1 a, .theme-e .nav-a ul li a:hover, .theme-e .nav-a ul li.active a, .theme-e #footer:before, .theme-e .social-a li a:hover, .theme-e .download-a li a:hover, .theme-e #top.active > .fit-a:before, .theme-e #top.active > .fit-a:after, .theme-e #clone.active > .fit-a:before, .theme-e #clone.active > .fit-a:after, .theme-e .heading-a h1:before, .theme-e .heading-a h2:before, .theme-e .heading-a h3:before, .theme-e .gallery-a li a:before, .theme-e .semantic-select .ticker:before, .theme-e #root .semantic-select ul li.active a, .theme-e .news-b article h1:before, .theme-e .news-b article h2:before, .theme-e .news-b article h3:before, .theme-e .news-b article h5:before, .theme-e .link-a a:hover, .theme-e .pagination-a li a:hover, .theme-e .pagination-a li.active a, .theme-e #root .semantic-select ul li a:hover, .theme-e .list-a li a:hover i, .theme-e #welcome h1:before, .theme-e #welcome h2:before, .theme-e .list-b li .no, .theme-e #content.a > .vb, .theme-e .news-c article, .theme-e .form-b button:before, .theme-e .list-c > li > a:hover, .theme-e .list-c > li > span span, .theme-e .counter > span span:before, .theme-e .comments-a ul:before, .theme-e .gallery-b li:before, .theme-e #root .gallery-b li > .fit-a:before, .theme-e #root .gallery-b li > .fit-a:after, .theme-e .gallery-c ul li:before, .theme-e .gallery-c .bx-pager .bx-pager-item a.active, .theme-e [data-carousel-3d] [data-prev-button], .theme-e [data-carousel-3d] [data-next-button], .theme-e [data-carousel-3d] [data-prev-button]:hover, .theme-e [data-carousel-3d] [data-next-button]:hover, .theme-e .slider-ba .bx-prev, .theme-e .slider-ba .bx-next, .theme-e .slider-ba .bx-prev:hover, .theme-e .slider-ba .bx-next:hover, .theme-e .slider-ba, .theme-e .gallery-b.b > li > div:before, .theme-e .news-d article h1:before, .theme-e .news-d article h2:before, .theme-e .news-d article h3:before, .theme-e .news-d article h4:before, .theme-e .news-d article h5:before, .theme-e .news-d article h6:before, .theme-e .news-d .bx-pager-item a.active, .theme-e .gallery-a .bx-pager-item a.active, .theme-e .gallery-b .bx-pager-item a.active, .theme-e .nav-a > ul li a:hover span.scheme-a, .theme-e .nav-a > ul li.active a span.scheme-a, .theme-e .news-e h1:before, .theme-e .news-e h2:before, .theme-e .news-e h3:before, .theme-e .news-e header figure:before, .theme-e .slider-bb .bx-prev, .theme-e .slider-bb .bx-next, .theme-e #welcome, .theme-e .gallery-a li.plain a .date:before { background-color: #F7B750; color: #fff; }
+.theme-e button, .theme-e input[type="button"], .theme-e input[type="reset"], .theme-e input[type="submit"], .theme-e input:focus, .theme-e select:focus, .theme-e textarea:focus, .theme-e #top > .fit-a:before, .theme-e #top > .fit-a:after, .theme-e #clone > .fit-a:before, .theme-e #clone > .fit-a:after, .theme-e .semantic-select.focus .input, .theme-e .semantic-select.active .input, .theme-e .semantic-select ul, .theme-e #contact input:focus, .theme-e #contact select:focus, .theme-e #contact textarea:focus, .theme-e #contact .semantic-select.focus .input, .theme-e #contact .semantic-select.active .input, .theme-e .link-a a, .theme-e .pagination-a li a, .theme-e .form-b input:focus, .theme-e .list-c > li > a, .theme-e #root .gallery-b li > .fit-a, .theme-e .link-a.a a { border-color: #F7B750; }
 
 .theme-e #clone nav > ul > li.a > a, .theme-e #clone nav > ul > li > ul, .theme-e #root #clone nav > ul > li.sub:hover > a, .theme-e #clone nav > ul > li > ul > li > ul { background-color: #f1435e; color: #fff; }
 .theme-e .list-c > li.a > span span { background-color: #9e2049; color: #fff; }
 .theme-e .list-c > li.c > span span { background-color: #a93455; color: #fff; }
 
-@media only screen and (max-width: 47.5em) { 
+@media only screen and (max-width: 47.5em) {
 #root #nav > ul > li > a, #root #clone nav > ul > li > a, .theme-e #root #nav > ul > li > ul li a:hover, .theme-e #root #nav > ul > li > ul li.active { color: #f1435e; }
 #root #nav > ul > li > a:hover, #root #clone nav > ul > li > a:hover, #root #nav > ul > li.active > a, #root #clone nav > ul > li.active > a { background-color: #f1435e; color: #fff; }
 #root .list-b li[class^="mobile"] { width: auto; height: auto; margin: 0 0 40px; padding: 0; background: none; text-align: center; }
@@ -1776,7 +1776,7 @@ body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 	#content.a > .va .slider-a, #content.a > .vb .slider-a { width: 820px; }
 		#root #content .sticky-c { right: -400px; }
 		#root #content .sticky-d { left: -400px; }
-	
+
 .cols-a > *:first-child { width: 620px; }
 
 .gallery-a { left: 0; width: auto; margin-left: -6px; }
@@ -1812,7 +1812,7 @@ body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 #welcome > figure.mobile-d { margin-left: -397px; }
 #twitter { }
 	#twitter li { padding-top: 140px; }
-	#twitter li img { left: 50%; top: 24px; margin: 0 0 0 -48px; }	
+	#twitter li img { left: 50%; top: 24px; margin: 0 0 0 -48px; }
 #top { padding-top: 10px; }
 	#top h1 { height: 52px; }
 		#top h1 a { background-size: 100% 100%; }
@@ -1836,7 +1836,7 @@ body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 	#content.a > .module-a > * { padding-left: 0; }
 	#content.a > .va .slider-a, #content.a > .vb .slider-a { width: 580px; }
 	#content > .heading-a:first-child, #content.a > * > .heading-a:first-child { margin-top: 0; }
-	
+
 .cols-a > *:first-child { width: 460px; }
 .cols-a > aside { width: 240px; }
 
@@ -1855,8 +1855,8 @@ body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 .gallery-c, #content > .gallery-c { width: auto; }
 .list-b { }
 	.list-b li { width: 150px; padding: 15px 20px 20px 20px; font-size: 1.3em; }
-	.js .list-b.a li.c1 { padding-left: 20px; padding-right: 20px; }	
-	.js .list-b.a li.c2 { padding-left: 20px; padding-right: 20px; }	
+	.js .list-b.a li.c1 { padding-left: 20px; padding-right: 20px; }
+	.js .list-b.a li.c2 { padding-left: 20px; padding-right: 20px; }
 	#root #content .list-b li.mobile-b { transform-origin: center 0; -moz-transform-origin: center 0; -webkit-transform-origin: center 0; -o-transform-origin: center 0; -ms-transform-origin: center 0; }
 .list-c { }
 	.list-c > li:first-child { margin-right: 10px; }
@@ -1894,7 +1894,7 @@ body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 		#root #nav > ul > li > a, #root #clone nav > ul > li > a, #root #nav > ul > li > ul li a { float: none; width: auto; height: auto; padding: 8px 18px; border-radius: 0; background: none; color: #000; line-height: 1.675; text-decoration: none; }
 #root #nav > ul > li > a:hover, #root #clone nav > ul > li > a:hover, #root #nav > ul > li.active > a, #root #clone nav > ul > li.active > a { background: #000; color: #fff; }
 
-	#root #nav > ul > li > ul { position: relative; left: 0; top: 0; width: auto; padding: 0; background: none; }	
+	#root #nav > ul > li > ul { position: relative; left: 0; top: 0; width: auto; padding: 0; background: none; }
 		#root #nav > ul > li > ul li a { padding: 5px 9px; }
 			#root #nav > ul > li > ul li a:hover, #root #nav > ul > li > ul li.active { color: #000; }
 	#top > .fit-a, #clone > .fit-a { top: 12px; }
@@ -1922,7 +1922,7 @@ h1, h2, .heading-a h1, .heading-a h2, .heading-a h3 { font-size: 3.6em; }
 .gallery-a { }
 	.gallery-a li { width: 50%; }
 	.gallery-a li img, .gallery-b li img { display: block; width: 100% !important; }
-.gallery-b { width: auto; }	
+.gallery-b { width: auto; }
 	.gallery-b li { float: none; width: 300px; margin-left: auto; margin-right: auto; box-shadow: none; }
 .gallery-c, #root #content .gallery-c { padding-left: 0; padding-right: 0; }
 	.gallery-c ul li > div { }
@@ -1984,15 +1984,15 @@ h3 { font-size: 3.0em; }
 h4 { font-size: 2.8em; }
 h5 { font-size: 2.6em; }
 h6 { font-size: 2.4em; }
-	
+
 .gallery-a { }
-	.gallery-a li { width: 100%; }	
+	.gallery-a li { width: 100%; }
 .heading-a { }
 	.heading-a p { font-size: 1.6em; }
 }
 @media only screen and (max-width: 25em) { /* 400 */
 @-ms-viewport { width: device-width; }
-@viewport { width: device-width; }	
+@viewport { width: device-width; }
 
 #root #welcome > figure { margin-top: 0; }
 .list-b { }
