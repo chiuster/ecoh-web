@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Avenir Next Thin";
+    src: url('avenir-next-thin.ttf');
+}
+
+@font-face {
+    font-family: "Avenir Next Regular";
+    src: url('avenir-next-regular.ttf');
+}
+
+body {
+  background-color: #F7B750;
+  color: #FFF;
+  margin: 0;
+}
+
+#container {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#logo {
+  margin-top: 20vh;
+  width: 200px;
+}
+
+h1 {
+  font-family: "Avenir Next Thin";
+  font-weight: 100;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Avenir Next Thin";
+  font-weight: 100;
+  margin-top: 5vh;
+}
+
+#clock {
+  font-family: "Avenir Next Thin";
+  font-weight: 100;
+  font-size: 60px;
+}
+
+#social {
+  padding: 10px;
+}
+
+#social a {
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+}
+
+#social img {
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+#social img:hover {
+  opacity: 0.5;
+}
