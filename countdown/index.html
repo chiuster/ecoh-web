@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ecoh: The Social Guide - Coming Soon</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div id="container">
+      <img id="logo" src="logo.png" />
+      <h1>The social guide</h1>
+      <!--<h2>Coming soon</h2>-->
+      <div id="clock">
+        00d : 00h : 00m : 00s
+      </div>
+      <div id="social">
+        <a href="http://www.facebook.com/ecohapp"><img src="icon-fb-a.png" /></a>
+        <a href="http://www.twitter.com/ecohapp"><img src="icon-tw-a.png" /></a>
+        <a href="http://www.instagram.com/ecohapp"><img src="icon-in-a.png" /></a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var deadline = 'October 31 2016 00:00:00 GMT-0500';
+
+      function getTimeRemaining(endtime) {
+        var t = Date.parse(endtime) - Date.parse(new Date());
+        var seconds = Math.floor( (t/1000) % 60 );
+        var minutes = Math.floor( (t/1000/60) % 60 );
+        var hours = Math.floor( (t/(1000*60*60)) % 24 );
+        var days = Math.floor( t/(1000*60*60*24) );
+        return {
+          'days': days,
+          'hours': hours,
+          'minutes': minutes,
+          'seconds': seconds
+        };
+      }
+
+      function initializeClock(id, endtime){
+        var clock = document.getElementById(id);
+        var timeinterval = setInterval(function(){
+          var t = getTimeRemaining(endtime);
+          clock.innerHTML = addZeroes(t.days) + 'd : ' + addZeroes(t.hours) + 'h : ' + addZeroes(t.minutes) + 'm : ' + addZeroes(t.seconds) + 's';
+          if (t.total <= 0) {
+            clearInterval(timeinterval);
+          }
+        },1000);
+      }
+
+      function addZeroes(number) {
+        var newNumber = "";
+        if (number < 10) {
+          newNumber = "0" + number;
+        } else {
+          newNumber = number;
+        }
+        return newNumber;
+      }
+
+      initializeClock('clock', deadline);
+    </script>
+</html>
